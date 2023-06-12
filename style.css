@@ -1,15 +1,14 @@
 * {
   font-family: "Oswald", sans-serif;
+  color: #eaecf0;
 }
-.klasa1 {
-  position: absolute;
-  left: 30%;
-  top: 9%;
-  width: 40%;
-  font-size: 30px;
+.wiki {
+  margin-top: 10%;
+  margin-left: -50%;
+  width: 75%;
 }
 body {
-  background-color: rgb(139, 61, 179);
+  background-color: #101828;
 }
 .klasa2 {
   position: fixed;
@@ -22,41 +21,95 @@ body {
 .klasa3 {
   margin-left: 28%;
 }
-.klasa4 {
-  position: absolute;
-  top: 20%;
-  left: 30%;
-  width: 20%;
-  font-size: 30px;
+.lorem {
+  margin-top: 10%;
+  margin-left: -50%;
+  width: 70%;
 }
-.klasa5 {
+
+.pudzian {
   position: absolute;
-  top: 20%;
-  left: 51%;
-  width: 300px;
-  height: 280px;
+  top: 5%;
+  left: 50%;
+
+  width: 700px;
+  height: 500px;
   -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
   -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
   box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
 }
-.klasa6 {
+.dolaczdodisco {
+  margin-top: 13%;
+  margin-left: -15%;
+  width: 300px;
+  height: 100px;
+}
+.button {
   position: absolute;
-  top: 2%;
+  top: 3%;
+  left: 24%;
+  width: 5%;
+}
+.gora {
+  position: fixed;
+  top: 0%;
+  background-color: rgba(102, 112, 133, 0.5);
+  width: 100%;
+  z-index: 9;
+}
+.glowna {
+  position: absolute;
+  margin-top: -2%;
   left: 30%;
+  top: 9%;
+  width: 40%;
+  font-size: 30px;
+  height: 2000px;
+}
+.listagora {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.discord {
+  margin-left: 35%;
   width: 65px;
   height: 50px;
+  margin-right: min(375px);
 }
-.klasa7 {
+@media screen and (min-width: 2048px) and (min-height: 1080px) {
+  .discord {
+    margin-left: 30%;
+    width: 80px;
+    height: 60px;
+    margin-right: min(675px);
+  }
+}
+.salabiesiadna {
   position: absolute;
   top: 3.5%;
-  left: 35%;
-  width: 80%;
+  left: 85%;
+  width: 10%;
   font-family: "Roboto", sans-serif;
+  background-color: aqua;
 }
-.klasa8 {
+.elementlisty {
+  font-size: 40px;
+  margin-left: 10%;
+}
+.discodolacz {
+  margin-left: -55.5%;
+  margin-top: 15%;
+}
+.discodolaczcontent {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+.discodolaczzdjecie {
+  margin-top: -5%;
+}
+.szlaczek1 {
   position: absolute;
-  top: 3.5%;
-  left: 70%;
-  width: 80%;
-  font-family: "Roboto", sans-serif;
+  right: 0%;
 }
